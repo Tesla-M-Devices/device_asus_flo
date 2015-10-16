@@ -193,6 +193,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera.flash_off=0 \
     ro.com.widevine.cachesize=16777216 
 
+# fmas props
+PRODUCT_PROPERTY_OVERRIDES += \
+    fmas.spkr_6ch=35,20,110 \
+    fmas.spkr_2ch=35,25 \
+    fmas.spkr_angles=10 \
+    fmas.spkr_sgain=0
+
 # Wifi
 PRODUCT_PACKAGES += \
     conn_init \
