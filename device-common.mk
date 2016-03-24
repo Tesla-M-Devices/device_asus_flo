@@ -178,6 +178,12 @@ PRODUCT_COPY_FILES += \
     device/asus/flo/configs/touch_dev.idc:system/usr/idc/touch_dev.idc \
     device/asus/flo/configs/elan-touchscreen.idc:system/usr/idc/elan-touchscreen.idc
 
+# missing props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.media.effect.bgdropper.adj=0.2 \
+    camera.flash_off=0 \
+    ro.com.widevine.cachesize=16777216 
+
 # Wifi
 PRODUCT_PACKAGES += \
     conn_init \
