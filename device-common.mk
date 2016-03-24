@@ -178,6 +178,15 @@ PRODUCT_COPY_FILES += \
     device/asus/flo/configs/touch_dev.idc:system/usr/idc/touch_dev.idc \
     device/asus/flo/configs/elan-touchscreen.idc:system/usr/idc/elan-touchscreen.idc
 
+# facelock props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.facelock.black_timeout=1250 \
+    ro.facelock.det_timeout=1500 \
+    ro.facelock.rec_timeout=2500 \
+    ro.facelock.lively_timeout=2500 \
+    ro.facelock.est_max_time=1000 \
+    ro.facelock.use_intro_anim=true
+
 # missing props
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.media.effect.bgdropper.adj=0.2 \
