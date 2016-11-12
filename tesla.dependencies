@@ -1,7 +1,7 @@
 [
  {
    "remote":      "github",
-   "repository": "android_external_stlport",
+   "repository": "CyanogenMod/android_external_stlport",
    "target_path": "external/stlport"
     "branch":     "cm-14.1"
  },
@@ -13,7 +13,7 @@
  },
  {
    "remote":      "github",
-   "repository": "android_kernel_google_msm",
+   "repository": "CyanogenMod/android_kernel_google_msm",
    "target_path": "kernel/google/msm"
    "branch":      "cm-14.1"
  }
