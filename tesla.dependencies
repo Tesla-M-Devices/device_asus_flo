@@ -1,20 +1,14 @@
 [
  {
    "remote":      "github",
-   "repository": "CyanogenMod/android_external_stlport",
-   "target_path": "external/stlport"
-    "branch":     "cm-14.1"
- },
- {
-   "remote":      "github",
    "repository": "TheMuppets/proprietary_vendor_asus",
    "target_path": "vendor/asus",
    "branch":      "cm-14.1"
  },
  {
    "remote":      "github",
-   "repository": "CyanogenMod/android_kernel_google_msm",
-   "target_path": "kernel/google/msm"
-   "branch":      "cm-14.1"
+   "repository": "GZR-Kernels/kernel_google_msm",
+   "target_path": "kernel/google/msm",
+   "branch":      "n7.0"
  }
 ]
