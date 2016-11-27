@@ -9,6 +9,6 @@
    "remote":      "github",
    "repository": "GZR-Kernels/kernel_google_msm",
    "target_path": "kernel/google/msm",
-   "branch":      "n7.0"
+   "branch":      "n7.1"
  }
 ]
