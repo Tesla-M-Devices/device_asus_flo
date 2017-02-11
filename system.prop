@@ -46,3 +46,6 @@ ro.sf.lcd_density=320
 
 # Display
 persist.hwc.mdpcomp.enable=true
+
+# Google Assistant
+ro.opa.eligible_device=true
