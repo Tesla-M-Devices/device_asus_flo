@@ -212,6 +212,11 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     init.flo.wifi.sh
 
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
+
 PRODUCT_COPY_FILES += \
     device/asus/flo/wifi/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
     device/asus/flo/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
