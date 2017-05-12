@@ -1,9 +1,9 @@
 [
  {
    "remote":      "github",
-   "repository": "TheMuppets/proprietary_vendor_asus",
+   "repository": "BigTopKrazies/proprietary_vendor_asus",
    "target_path": "vendor/asus",
-   "branch":      "cm-14.1"
+   "branch":      "n7.1"
  },
  {
    "remote":      "github",
